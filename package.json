@@ -1,0 +1,24 @@
+{
+  "name": "ng-shortcut",
+  "version": "1.0.0",
+  "description": "Angular Keyboard Shortcuts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ozanturhan/ng-shortcut.git"
+  },
+  "keywords": [
+    "angular",
+    "shortcut",
+    "hotkeys"
+  ],
+  "author": "Mehmet Ozan Turhan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ozanturhan/ng-shortcut/issues"
+  },
+  "homepage": "https://github.com/ozanturhan/ng-shortcut#readme"
+}
