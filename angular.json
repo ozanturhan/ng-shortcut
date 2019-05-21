@@ -142,6 +142,11 @@
           "options": {
             "tsConfig": "projects/ng-shortcut/tsconfig.lib.json",
             "project": "projects/ng-shortcut/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "project": "projects/ng-shortcut/ng-package-prod.json"
+            }
           }
         },
         "test": {

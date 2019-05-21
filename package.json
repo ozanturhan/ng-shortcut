@@ -23,7 +23,10 @@
     "build": "ng build",
     "test": "ng test",
     "npm-pack": "cd dist/ng-shortcut && npm pack",
+    "build:prod": "ng build --prod ng-shortcut",
+    "publish": "npm run build:prod && npm publish dist/ng-shortcut",
     "build:watch": "ng build ng-shortcut --watch",
+    "package": "npm run build:prod && npm run npm-pack",
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
