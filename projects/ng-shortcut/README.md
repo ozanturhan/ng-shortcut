@@ -113,7 +113,7 @@ Directive that can be used for clickable elements, such as button etc...
 
 | Name   |      Type      |  default         | description |
 |----------|:-------------:|-----------------:  |:-------------:|
-| ngShortcut |  ```Shortcut``` | [] | KeyboardEvent keys (F1, F2, A, B or user defined) |
+| ngShortcut |  ```string``` | [] | KeyboardEvent keys (F1, F2, A, B or user defined) |
 | ctrlKey |    `boolean`  |   `undefined`   | KeyboardEvent ctrlKey |
 | altKey |    `boolean`  |   `undefined`   | KeyboardEvent altKey |
 | shiftKey |    `boolean`  |   `undefined`   | KeyboardEvent shiftKey |
